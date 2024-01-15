@@ -39,6 +39,7 @@
   padding: 0;
 }
 body {
+  position: relative;
   font-family: "Figtree", sans-serif;
   background-color: var(--main-background-color);
   font-size: clamp(1rem, 2.5vw, 1.5rem);
@@ -122,6 +123,14 @@ img.blog-img {
 }
 .author-figure-name {
   font-size: 18px;
+}
+/* Attribution */
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 15px;
 }
 /* Utility-Classes */
 .round-border {
