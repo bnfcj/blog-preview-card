@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-    <div class="body-container">
+    <main class="body-container">
       <article class="blog-card round-border">
         <h1 class="blog-title">HTML and CSS Foundations</h1>
         <img
@@ -36,7 +36,12 @@
         />
 
         <ul class="categories" aria-labelledby="category-list-title">
-          <h2 class="category-list-title visually-hidden">Categories</h2>
+          <p
+            id="category-list-title"
+            class="category-list-title visually-hidden"
+          >
+            Categories
+          </h2>
           <li class=""><a href="#">Learning</a></li>
         </ul>
         <p>
@@ -45,7 +50,7 @@
         </p>
         <figure
           role="group"
-          aria-labelledby="author-info-title"
+          aria-labelledby="author-figure-name"
           class="author-figure"
         >
           <img
@@ -54,7 +59,9 @@
             alt="Author Thumbnail"
           />
           <figcaption>
-            <h2 class="author-figure-name">Greg Hooper</h2>
+            <h2 id="author-figure-name" class="author-figure-name">
+              Greg Hooper
+            </h2>
           </figcaption>
         </figure>
 
@@ -62,8 +69,8 @@
           Published on: <time datetime="2024-01-15">January 15, 2024</time>
         </p>
       </article>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
