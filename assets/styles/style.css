@@ -147,7 +147,8 @@ img.blog-img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.italic {
+.italic-grey {
   font-style: italic;
   font-weight: lighter;
+  color: var(--grey-color);
 }
