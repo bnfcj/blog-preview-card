@@ -51,7 +51,17 @@ body {
 }
 
 .blog-card {
-  border: 1px solid var(--black-color);
-  border-radius: 10px;
   box-shadow: 10px 10px 0 0 var(--black-color);
+  background-color: var(--white-color);
+}
+
+.round-border.blog-img {
+  width: 100%;
+  border-color: var(--white-color);
+}
+
+/* Utility-Classes */
+.round-border {
+  border: 1px solid;
+  border-radius: 15px;
 }
