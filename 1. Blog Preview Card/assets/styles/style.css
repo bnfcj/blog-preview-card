@@ -59,6 +59,16 @@ body {
   width: 100%;
   border-color: var(--white-color);
 }
+/* order inside blog card */
+.blog-img {
+  order: -3;
+}
+.categories {
+  order: -2;
+}
+.published-date {
+  order: -1;
+}
 
 /* Utility-Classes */
 .round-border {
