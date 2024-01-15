@@ -99,6 +99,15 @@ img.blog-img {
   border: 2px solid var(--black-color);
   background-color: var(--main-background-color-darker);
 }
+/* Date */
+.published-date {
+  width: 100%;
+}
+/* H1 */
+.blog-title {
+  font-size: 20px;
+  width: 100%;
+}
 /* Utility-Classes */
 .round-border {
   border: 2px solid;
