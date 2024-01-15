@@ -49,8 +49,12 @@ body {
   align-items: center;
   padding: 20px;
 }
-
+.body-container {
+  height: 100vh;
+  justify-content: center;
+}
 .blog-card {
+  gap: 15px;
   box-shadow: 10px 10px 0 0 var(--black-color);
   background-color: var(--white-color);
 }
